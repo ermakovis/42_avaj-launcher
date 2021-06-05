@@ -43,7 +43,7 @@ public class JetPlane extends Aircraft implements Flyable {
         } else {
             Logger.log(String.format("%s: %s | coordinates: longitude - %d, latitude - %d, height - %d%n" ,
                     logName, messageMap.get(weather),
-                    coordinates.getLongitude(), coordinates.getLatitude(), coordinates.getHeight());
+                    coordinates.getLongitude(), coordinates.getLatitude(), coordinates.getHeight()));
         }
     }
 
